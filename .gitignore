@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/  # If you use virtual environments, ignore this folder
+env/   # Another common virtual environment name
+
+# PyInstaller (if you ever turn it into an .exe)
+*.spec
+build/
+dist/
+
+# Operating System files
+.DS_Store
+Thumbs.db
