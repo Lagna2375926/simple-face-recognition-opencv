@@ -21,7 +21,7 @@ This project implements a basic, real-time facial recognition system using **Pyt
 
 ---
 
-## 🖥System Requirements
+## System Requirements
 
 - A computer with a webcam  
 - Python 3.6+ (Miniconda/Anaconda recommended)  
@@ -89,10 +89,14 @@ python face_recognition_app.py
 ```
 - Press q to exit the application window.
 
+---
+
 ## Code Overview
 
 - face_recognition_app.py:
 Initializes webcam, converts frames to grayscale, uses haarcascade_frontalface_default.xml to detect faces, draws bounding boxes, and shows live feed using OpenCV.
+
+---
 
 ## Troubleshooting
 
@@ -107,6 +111,8 @@ Run Miniconda Prompt as Administrator.
 
 - Warnings (e.g., GStreamer, QMimeDatabase):
 Generally non-critical if the app is functioning.
+
+---
 
 ## License
 
